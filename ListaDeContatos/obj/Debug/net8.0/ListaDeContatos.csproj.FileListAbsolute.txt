@@ -1,0 +1,14 @@
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\bin\Debug\net8.0\ListaDeContatos.exe
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\bin\Debug\net8.0\ListaDeContatos.deps.json
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\bin\Debug\net8.0\ListaDeContatos.runtimeconfig.json
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\bin\Debug\net8.0\ListaDeContatos.dll
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\bin\Debug\net8.0\ListaDeContatos.pdb
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.AssemblyInfoInputs.cache
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.AssemblyInfo.cs
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.csproj.CoreCompileInputs.cache
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.dll
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\refint\ListaDeContatos.dll
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.pdb
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.genruntimeconfig.cache
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ref\ListaDeContatos.dll

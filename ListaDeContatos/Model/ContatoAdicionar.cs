@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListaDeContatos.Contato
+namespace ListaDeContatos.Model
 {
     public  class ContatoAdicionar
     {
@@ -13,6 +13,6 @@ namespace ListaDeContatos.Contato
         string Telefone { get; set; }
         string Email { get; set; }
         string Endereco { get; set; }
-        public DadosCadastrais DadosCadastrais { get; set; }
+        //public DadosCadastrais DadosCadastrais { get; set; }
     }
 }

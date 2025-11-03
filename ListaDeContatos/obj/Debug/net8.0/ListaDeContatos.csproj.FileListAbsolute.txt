@@ -12,3 +12,4 @@ C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ref
 C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.pdb
 C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.genruntimeconfig.cache
 C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ref\ListaDeContatos.dll
+C:\Users\jovie\source\repos\ListaDeContatos\ListaDeContatos\obj\Debug\net8.0\ListaDeContatos.sourcelink.json

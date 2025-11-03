@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\contato\\dadoscadastrais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|c:\\users\\jovie\\source\\repos\\listadecontatos\\listadecontatos\\contato\\contatoadicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\contato\\contatoadicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|c:\\users\\jovie\\source\\repos\\listadecontatos\\listadecontatos\\listadecontatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\listadecontatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|c:\\users\\jovie\\source\\repos\\listadecontatos\\listadecontatos\\model\\dadoscadastrais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\model\\dadoscadastrais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|c:\\users\\jovie\\source\\repos\\listadecontatos\\listadecontatos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|c:\\users\\jovie\\source\\repos\\listadecontatos\\listadecontatos\\model\\contatoadicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFC766E-D6C2-402A-BED8-C5FF630205D7}|ListaDeContatos\\ListaDeContatos.csproj|solutionrelative:listadecontatos\\model\\contatoadicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +30,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListaDeContatos",
-              "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\ListaDeContatos.csproj",
-              "RelativeDocumentMoniker": "ListaDeContatos\\ListaDeContatos.csproj",
-              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\ListaDeContatos.csproj",
-              "RelativeToolTip": "ListaDeContatos\\ListaDeContatos.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-28T12:10:31.947Z",
+              "DocumentIndex": 1,
+              "Title": "DadosCadastrais.cs",
+              "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Model\\DadosCadastrais.cs",
+              "RelativeDocumentMoniker": "ListaDeContatos\\Model\\DadosCadastrais.cs",
+              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Model\\DadosCadastrais.cs",
+              "RelativeToolTip": "ListaDeContatos\\Model\\DadosCadastrais.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T20:15:10.4Z",
               "EditorCaption": ""
             },
             {
@@ -47,35 +47,35 @@
               "Title": "DadosCadastrais.cs",
               "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Contato\\DadosCadastrais.cs",
               "RelativeDocumentMoniker": "ListaDeContatos\\Contato\\DadosCadastrais.cs",
-              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Contato\\DadosCadastrais.cs",
-              "RelativeToolTip": "ListaDeContatos\\Contato\\DadosCadastrais.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAWwDIAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Contato\\DadosCadastrais.cs*",
+              "RelativeToolTip": "ListaDeContatos\\Contato\\DadosCadastrais.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAMwCIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T17:40:20.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ContatoAdicionar.cs",
-              "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Contato\\ContatoAdicionar.cs",
-              "RelativeDocumentMoniker": "ListaDeContatos\\Contato\\ContatoAdicionar.cs",
-              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Contato\\ContatoAdicionar.cs",
-              "RelativeToolTip": "ListaDeContatos\\Contato\\ContatoAdicionar.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Model\\ContatoAdicionar.cs",
+              "RelativeDocumentMoniker": "ListaDeContatos\\Model\\ContatoAdicionar.cs",
+              "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Model\\ContatoAdicionar.cs",
+              "RelativeToolTip": "ListaDeContatos\\Model\\ContatoAdicionar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T17:39:41.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Program.cs",
               "RelativeDocumentMoniker": "ListaDeContatos\\Program.cs",
               "ToolTip": "C:\\Users\\jovie\\source\\repos\\ListaDeContatos\\ListaDeContatos\\Program.cs",
               "RelativeToolTip": "ListaDeContatos\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T02:40:07.391Z",
               "EditorCaption": ""

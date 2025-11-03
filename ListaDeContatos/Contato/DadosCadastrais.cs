@@ -1,93 +1,63 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using ListaDeContatos.model;
+using ListaDeContatos.Model;
 
 namespace ListaDeContatos.Contato
 {
-    public class DadosCadastrais
+    public class ProcessamentoDadosCadastrais
     {
-        string Nome { get; set; }
-        string SobreNome { get; set; }
-        string Telefone { get; set; }
-        string Email { get; set; }
-
-        public void SalvarDadosIniciais()
+        public DadosCadastrais SalvarDadosIniciais()
         {
+            var dados = new DadosCadastrais();
+
             Console.WriteLine("Bem-vindo");
-            Console.WriteLine("Primeiro precisamos Cadastrar seu contato");
-            Console.WriteLine("---------------------");
+            Console.WriteLine("Primeiro precisamos cadastrar seu contato");
+            Console.WriteLine("------------------------------");
             Console.WriteLine("Nome e Telefone são obrigatórios.");
-            Console.WriteLine("Sobrenome e Email não são Obrigatótios apenas digite enter caso não quera prencher");
+            Console.WriteLine("Sobrenome e Email são opcionais (ENTER para pular).");
+            Console.WriteLine();
 
-            Console.Write("Digite o Nome:");
-            Nome = Console.ReadLine();
-            if (Nome == "" || Nome.Length < 2 || Nome.Length >= 100)
+            // NOME (obrigatório: 2 a 100)
+            dados.Nome = LerObrigatorio("Nome", 2, 100);
+
+            dados.sexo = Sexo("Sexo", 1, 20);
+
+            // SOBRENOME (opcional: se vazio, N/A)
+            var s = LerOpcional("Sobrenome");
+            dados.SobreNome = string.IsNullOrWhiteSpace(s) ? "N/A" : s;
+
+            // TELEFONE (obrigatório simples)
+            dados.Telefone = LerObrigatorio("Telefone", 8, 20);
+
+            // EMAIL (opcional)
+            dados.Email = LerOpcional("Email");
+
+            return dados;
+        }
+
+        private static string LerObrigatorio(string label, int min, int max)
+        {
+            while (true)
             {
-                Console.WriteLine("insira um valor válido para o Nome");
-                Console.Write("Digite o Nome: ");
-                Nome = Console.ReadLine();
+                Console.Write($"Digite o {label}: ");
+                var valor = (Console.ReadLine() ?? "").Trim();
+                if (valor.Length >= min && valor.Length <= max) return valor;
+
+                Console.WriteLine($"Insira um {label} válido (entre {min} e {max} caracteres).");
             }
+        }
 
-
-
-            Console.Write("Digite o Sobrenome:");
-            SobreNome = Console.ReadLine();
-            if (SobreNome == "")
+        private static string Sexo(string label, int min, int max)
+        {
+            while (true)
             {
-                SobreNome = "N/A";
+                Console.Write($"Digite {label}");
             }
+        }
 
-
-
-            int numero;
-            Console.Write("Digite o Telefone: ");
-            do
-            {
-                
-                Telefone = Console.ReadLine();
-                if (Telefone == "" || Telefone.Length < 8 || Telefone.Length > 15)
-                {
-                    Console.WriteLine("Numero incorreto");
-                    Console.WriteLine("Seu Numero deve conter entre 8 a 15 digitos");
-                    Console.Write("Digite o Telefone: ");
-                    Telefone = Console.ReadLine();
-                }
-                    //if (!int.TryParse(Telefone, out numero))
-                    //{
-                    //    Console.WriteLine("Numero incorreto");
-                    //    Console.WriteLine("digite novalmente seu numero usando o exemplo - 11111111111");
-                    //    Console.Write("Digite o Telefone: ");
-                    //}
-            } while (!int.TryParse(Telefone, out numero));
-            Console.WriteLine("Você digitou o número: " + numero);
-
-            
-            
-            
-            bool isValid = false;
-            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-            do
-            {
-                Console.Write("Digite seu e-mail: ");
-                Email = Console.ReadLine();
-
-                if (Regex.IsMatch(Email, emailPattern, RegexOptions.IgnoreCase))
-                {
-                    isValid = true;
-                }
-                else
-                {
-                    Console.WriteLine("O e-mail digitado é inválido. Por favor, tente novamente.");
-                }
-            } while (!isValid);
-
-            Console.WriteLine($"\nO e-mail '{Email}' foi validado com sucesso!");
+        private static string LerOpcional(string label)
+        {
+            Console.Write($"Digite o {label} (opcional): ");
+            return (Console.ReadLine() ?? "").Trim();
         }
     }
 }
-
-   

@@ -4,6 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 using ListaDeContatos.Contato;
+using ListaDeContatos.model;
 
 
 namespace ListaDeContatos
@@ -12,9 +13,25 @@ namespace ListaDeContatos
     {
         public static void Main(string[] args)
         {
-            DadosCadastrais dadosCadastrais = new DadosCadastrais();
+            var contatos = new List<DadosCadastrais>();
 
-            dadosCadastrais.SalvarDadosIniciais();
+            var proc = new ProcessamentoDadosCadastrais();
+
+            DadosCadastrais novo = proc.SalvarDadosIniciais();
+
+
+
+            //DadosCadastrais dadosCadastrais = new DadosCadastrais();
+
+            //dadosCadastrais.SalvarDadosIniciais();
+
+            //Console.WriteLine("Cadastro Concluindo com sucesso");
+
+            //dadosCadastrais.MostrarDadosCadastrais();
+
+
+
+
         }
     }
 }
